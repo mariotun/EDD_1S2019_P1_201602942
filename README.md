@@ -1,5 +1,5 @@
 # Practica1
-===========
+
 ## Data Structures
 
 - Developed by *Mario Tun*<br>
