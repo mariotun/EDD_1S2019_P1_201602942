@@ -2,9 +2,9 @@
 ===========
 ###Data Structures
 
-- developed by *Mario Tun*<br>
-- id:201602942<br>
-- email:oriamnut09@gmail.com<br>
+- Developed by *Mario Tun*<br>
+- ID:201602942<br>
+- Email:oriamnut09@gmail.com<br>
 
-####Description
+##Description
 - We can have a short description of our project,in a way that is understandable for the people reading it.
