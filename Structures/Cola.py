@@ -13,6 +13,7 @@ class Queue:#CLASS CALLED Queue
 
 		self.first=None
 		self.last=None
+		print("example")
 
 	def enqueue(self,nodenew):#METHOD CALLED enqueue
 
@@ -68,6 +69,7 @@ class Queue:#CLASS CALLED Queue
 
 #-------Example to use the Queue-------
 
+'''
 co=Queue()#CREATE A NEW Queue
 co.enqueue(NodeQueue("mario",5))#ADD ELEMENT 1
 co.enqueue(NodeQueue("raul",7))#ADD ELEMENT 2
@@ -78,7 +80,7 @@ co.dequeue()#DELETE ELEMENT
 co.dequeue()#DELETE ELEMENT
 co.printQueue()#PRINT THE Queue
 
-
+'''
 
 
 

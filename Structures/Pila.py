@@ -1,4 +1,6 @@
 
+
+
 class NodeStack:#CLASS CALLED NodeStack
 
 	def __init__(self,x=None,y=None):#CONSTRUCTOR 
