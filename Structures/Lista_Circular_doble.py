@@ -7,11 +7,17 @@ class NodeLCD:#CLASS CALLED NodeLCD
 		self.previous=None
 
 class Circular_Doubly_Linked_List:#CLASS CALLED Circular_Doubly_Linked_List
+	
+	#first=None
+	#last=None
 
 	def __init__(self):#CONSTRUCTOR 
 		
 		self.first=None
 		self.last=None
+		
+		#primero=self.first
+		#ultimo=self.last
 
 	def add(self,nodelcd):#METHOD CALLED add
 
@@ -54,8 +60,8 @@ class Circular_Doubly_Linked_List:#CLASS CALLED Circular_Doubly_Linked_List
 	
 
 #-------Example to use the list-------
-
-'''lcd=Circular_Doubly_Linked_List()#CREATE A NEW Circular_Doubly_Linked_List
+'''
+lcd=Circular_Doubly_Linked_List()#CREATE A NEW Circular_Doubly_Linked_List
 lcd.add(NodeLCD("mario"))#ADD ELEMENT 1
 lcd.add(NodeLCD("raul"))#ADD ELEMENT 2
 lcd.add(NodeLCD("carlos"))#ADD ELEMENT 3
