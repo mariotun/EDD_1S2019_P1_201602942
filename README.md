@@ -7,7 +7,7 @@
 - Email:oriamnut09@gmail.com<br>
 
 ### Description
-- We can have a short description of our project,in a way that is understandable for the people reading it.
+- This is a practice of the Data Structures course conducted in the programming language of Python3, which consists of the classic snake game. Contain a menu with the options to start the game, enter users, reports etc where the option of reports you can see the image corresponding to the structure with their respective data.
 
 #### Note:
 To run it on ubuntu you have to do the following steps.
