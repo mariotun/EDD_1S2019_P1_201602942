@@ -1,3 +1,8 @@
+#import file
+import os
+import curses
+
+
 class NodeLCD:#CLASS CALLED NodeLCD
 
 	def __init__(self,user):#CONSTRUCTOR 
@@ -15,6 +20,8 @@ class Circular_Doubly_Linked_List:#CLASS CALLED Circular_Doubly_Linked_List
 		
 		self.first=None
 		self.last=None
+
+		
 		
 		#primero=self.first
 		#ultimo=self.last
@@ -58,6 +65,98 @@ class Circular_Doubly_Linked_List:#CLASS CALLED Circular_Doubly_Linked_List
 			temp=temp.next
 			print(temp.user)
 	
+	def escribir(self):
+
+		cadena=" "
+		codigo=0
+		unoPrimero=self.first
+		unoUltimo=self.last
+		DosPrimero=self.first
+
+		if self.first != None:
+
+			while unoPrimero!=unoUltimo:
+
+				cadena+=str(codigo)
+				cadena+="[label=\""
+				cadena+=unoPrimero.user
+				cadena+="\"];\n"
+
+				unoPrimero=unoPrimero.next
+				codigo+=1
+
+		else: 
+			#stdscr.addstr(5,5,"La lista esta vacia")
+			cadena+=str(unoPrimero)
+			cadena+="[label=\"null\"]"
+			print("VACIO")
+
+
+		return cadena
+
+
+	def graph_list_user(self):
+
+		cadena=" "
+		codigo=0
+		codigonuevo=0
+		unoPrimero=self.first
+		dosPrimero=self.first
+
+		unoUltimo=self.last
+		dosUltimo=self.last
+		
+
+		if self.first != None:
+
+			while unoPrimero!=unoUltimo:
+
+				cadena+=str(unoPrimero)
+				cadena+="[label=\""
+				cadena+=unoPrimero.user
+				cadena+="\"];\n"
+
+				unoPrimero=unoPrimero.next
+				
+
+		else: 
+			
+			cadena+=str(unoPrimero)
+			cadena+="[label=\"null\"]"
+			print("VACIO")
+
+
+		while dosPrimero != dosUltimo:
+
+			cadena+=str(dosPrimero)
+
+			if dosPrimero != dosUltimo:
+				cadena+="->"
+				dosPrimero=dosPrimero.next
+
+		cadena+=str(self.first)
+			
+		
+		cadena+="\n"
+		cadena+="[dir=both style=tapered arrowsize=0.5 penwidth=1 color=black];\n"
+
+
+		f=open("user_list.dot","w")
+		f.write("digraph Lista_Simple{\n label=Lista_de_Usuarios; \n labelloc=t; \n")
+		f.write("node[margin=0.3 fontcolor=black shape=box];\n")
+		f.write("{rank=same;\n")
+
+		f.write(cadena)
+		
+		f.write("} }")
+		f.close()
+
+		os.system("dot user_list.dot -Tpng -o user_list.png")
+		os.system("xdg-open user_list.png")
+		
+		
+
+
 
 #-------Example to use the list-------
 '''
