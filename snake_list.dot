@@ -1,0 +1,31 @@
+digraph Lista_Snake{
+ label=Posicion_Snake; 
+ labelloc=t; 
+node[margin=0.3 fontcolor=black shape=box];
+{rank=same;
+ <lista_doble.NodeLD object at 0x7f8289b24a90>[label="(66,16)"];
+<lista_doble.NodeLD object at 0x7f8289b24d30>[label="(67,16)"];
+<lista_doble.NodeLD object at 0x7f8289b24ac8>[label="(68,16)"];
+<lista_doble.NodeLD object at 0x7f8289b24da0>[label="(69,16)"];
+<lista_doble.NodeLD object at 0x7f8289b249b0>[label="(70,16)"];
+<lista_doble.NodeLD object at 0x7f8289b24ba8>[label="(71,16)"];
+<lista_doble.NodeLD object at 0x7f8289b24978>[label="(72,16)"];
+<lista_doble.NodeLD object at 0x7f8289b24b70>[label="(73,16)"];
+<lista_doble.NodeLD object at 0x7f8289b24cf8>[label="(73,17)"];
+<lista_doble.NodeLD object at 0x7f8289b24908>[label="(73,18)"];
+<lista_doble.NodeLD object at 0x7f8289b24be0>[label="(73,19)"];
+<lista_doble.NodeLD object at 0x7f8289b24b38>[label="(73,20)"];
+<lista_doble.NodeLD object at 0x7f8289b24d68>[label="(73,21)"];
+<lista_doble.NodeLD object at 0x7f8289b24cc0>[label="(73,22)"];
+<lista_doble.NodeLD object at 0x7f8289b24e48>[label="(73,23)"];
+<lista_doble.NodeLD object at 0x7f8289b24dd8>[label="(72,23)"];
+<lista_doble.NodeLD object at 0x7f8289b24c18>[label="(71,23)"];
+<lista_doble.NodeLD object at 0x7f8289b24a58>[label="(70,23)"];
+<lista_doble.NodeLD object at 0x7f8289b24c50>[label="(69,23)"];
+<lista_doble.NodeLD object at 0x7f8289b249e8>[label="(68,23)"];
+<lista_doble.NodeLD object at 0x7f8289b24e10>[label="(67,23)"];
+<lista_doble.NodeLD object at 0x7f8289b24c88>[label="(66,23)"];
+<lista_doble.NodeLD object at 0x7f8289b24a20>[label="(65,23)"];
+<lista_doble.NodeLD object at 0x7f8289b24a90>-><lista_doble.NodeLD object at 0x7f8289b24d30>-><lista_doble.NodeLD object at 0x7f8289b24ac8>-><lista_doble.NodeLD object at 0x7f8289b24da0>-><lista_doble.NodeLD object at 0x7f8289b249b0>-><lista_doble.NodeLD object at 0x7f8289b24ba8>-><lista_doble.NodeLD object at 0x7f8289b24978>-><lista_doble.NodeLD object at 0x7f8289b24b70>-><lista_doble.NodeLD object at 0x7f8289b24cf8>-><lista_doble.NodeLD object at 0x7f8289b24908>-><lista_doble.NodeLD object at 0x7f8289b24be0>-><lista_doble.NodeLD object at 0x7f8289b24b38>-><lista_doble.NodeLD object at 0x7f8289b24d68>-><lista_doble.NodeLD object at 0x7f8289b24cc0>-><lista_doble.NodeLD object at 0x7f8289b24e48>-><lista_doble.NodeLD object at 0x7f8289b24dd8>-><lista_doble.NodeLD object at 0x7f8289b24c18>-><lista_doble.NodeLD object at 0x7f8289b24a58>-><lista_doble.NodeLD object at 0x7f8289b24c50>-><lista_doble.NodeLD object at 0x7f8289b249e8>-><lista_doble.NodeLD object at 0x7f8289b24e10>-><lista_doble.NodeLD object at 0x7f8289b24c88>-><lista_doble.NodeLD object at 0x7f8289b24a20>
+[dir=both style=tapered arrowsize=0.5 penwidth=1 color=black];
+} }

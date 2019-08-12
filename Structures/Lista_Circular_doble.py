@@ -45,6 +45,10 @@ class Circular_Doubly_Linked_List:#CLASS CALLED Circular_Doubly_Linked_List
 
 		#print("Node entered to Circular Doubly Linked List")
 
+	def get_user(self):
+		
+		usuario=self.user
+		return str(usuario)
 
 	def print_Circular_Doubly_Linked_List(self):#METHOD CALLED print_Circular_Doubly_Linked_List
 
