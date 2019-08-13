@@ -3,6 +3,26 @@ digraph Lista_Simple{
  labelloc=t; 
 node[margin=0.3 fontcolor=black shape=box];
 {rank=same;
- None[label="null"]None
+ <Lista_Circular_doble.NodeLCD object at 0x7f71b76bceb8>[label="Mario"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76bcef0>[label="Cristian"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76bcf60>[label="Leonel"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76bcfd0>[label="Carlos"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb080>[label="Karla"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb0f0>[label="Sofia"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb160>[label="Angel"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb1d0>[label="Estuardo"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb208>[label="Fernanda"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb240>[label="Lucia"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb2e8>[label="Roberto"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb320>[label="Lucas"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb390>[label="Marcos"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb400>[label="Luis"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb470>[label="Fernando"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb4e0>[label="Esteban"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb518>[label="Daniel"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb588>[label="Erick"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb5f8>[label="Emilio"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76cb668>[label="Katherin"];
+<Lista_Circular_doble.NodeLCD object at 0x7f71b76bceb8>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76bcef0>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76bcf60>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76bcfd0>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb080>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb0f0>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb160>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb1d0>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb208>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb240>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb2e8>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb320>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb390>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb400>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb470>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb4e0>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb518>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb588>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb5f8>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76cb668>-><Lista_Circular_doble.NodeLCD object at 0x7f71b76bceb8>
 [dir=both style=tapered arrowsize=0.5 penwidth=1 color=black];
 } }

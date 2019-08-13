@@ -1,0 +1,12 @@
+digraph cola_puntajes{
+ label=Cola_Puntaje_Usuarios; 
+ labelloc=t; 
+node[margin=0.3 fontcolor=black shape=record];
+
+cola1[
+label="{
+(Erick,4)| 
+(Carlos,5)| 
+}" 
+]; 
+}

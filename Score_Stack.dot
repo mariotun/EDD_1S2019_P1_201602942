@@ -1,0 +1,15 @@
+digraph pila_puntos{
+ label=Pila_Puntaje_Juego; 
+ labelloc=t; 
+node[margin=0.3 fontcolor=black shape=record];
+ 
+pila1[
+label="{
+|(47,15)
+|(51,9)
+|(36,10)
+|(12,15)
+|(58,16)
+}" 
+];
+}

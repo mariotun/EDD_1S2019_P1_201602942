@@ -37,14 +37,17 @@ def two_scoreboard(stdscr):# <<<<<-------------------------METHOD CALLED two_sco
     stdscr=curses.initscr()
     stdscr.border(0)
     curses.curs_set(0)
-    stdscr.addstr(5,5,"two")
+    stdscr.addstr(2,35,"SCOREBOARD")
+
+    Snake.col.printQueue()
+    time.sleep(3)
 
     stdscr.getch()
     stdscr.refresh()
 
 def three_userselection(stdscr):# <<<<<-------------------------METHOD CALLED three_userselection------------------------->>>>>
 	
-
+    
     stdscr=curses.initscr()
     #stdscr.border(0)
     curses.curs_set(0)
@@ -70,10 +73,10 @@ def three_userselection(stdscr):# <<<<<-------------------------METHOD CALLED th
     		    stdscr.addstr(5,5,"La lista esta vacia")
                 #stdscr.addstr(5,5,dato.posx)
     		else:
-    			#stdscr.addstr(10,15,"-->")
-    			stdscr.addstr(10,35,temp.user)
-    			temp=temp.next
-            
+                    stdscr.addstr(10,35,temp.user)   
+                    lcd.set_user(temp.user)
+                    temp=temp.next
+                
 
     		
     		
@@ -83,9 +86,11 @@ def three_userselection(stdscr):# <<<<<-------------------------METHOD CALLED th
     		if temp is None:
     			stdscr.addstr(5,5,"La lista esta vacia")
     		else:
-    			#stdscr.addstr(10,15,"<---")
-    			stdscr.addstr(10,35,temp.user)
-    			temp=temp.previous
+    			     #stdscr.addstr(10,15,"<---")
+                    stdscr.addstr(10,35,temp.user)
+                    lcd.set_user(temp.user)
+                    temp=temp.previous
+                    
                 
 
     	elif direction == 120:
@@ -129,9 +134,11 @@ def four_reports(stdscr):# <<<<<-------------------------METHOD CALLED four_repo
 
         elif report_type==98:
             print("m")
+            Snake.pil.graph_stack_score()
 
         elif report_type==99:
             print("m")
+            Snake.col.graph_Queue_scoreboard()
 
         elif report_type==100:
             print("m")

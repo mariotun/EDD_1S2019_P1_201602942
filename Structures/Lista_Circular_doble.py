@@ -20,6 +20,7 @@ class Circular_Doubly_Linked_List:#CLASS CALLED Circular_Doubly_Linked_List
 		
 		self.first=None
 		self.last=None
+		self.elegido="n"
 
 		
 		
@@ -45,9 +46,14 @@ class Circular_Doubly_Linked_List:#CLASS CALLED Circular_Doubly_Linked_List
 
 		#print("Node entered to Circular Doubly Linked List")
 
-	def get_user(self):
+	def set_user(self,us_elegido):
 		
-		usuario=self.user
+		self.elegido=us_elegido
+		#usuario=us_elegido
+		
+	def get_user(self):
+
+		usuario=self.elegido
 		return str(usuario)
 
 	def print_Circular_Doubly_Linked_List(self):#METHOD CALLED print_Circular_Doubly_Linked_List
