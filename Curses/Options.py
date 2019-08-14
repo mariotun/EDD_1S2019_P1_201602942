@@ -159,27 +159,40 @@ def five_bulkloading(stdscr):# <<<<<-------------------------METHOD CALLED five_
     stdscr=curses.initscr()
     stdscr.border(0)
     curses.curs_set(0)
-     
-    
-    with open('Curses/Users.csv') as archivo:
+    '''stdscr.clear()
+    curses.curs_set(0)
+    curses.echo()
+    stdscr.keypad(True)
+    stdscr.addstr(2,3,"Ingrese el Nombre del Archivo:")
+    stdscr.addstr(2,35," "*15,curses.A_UNDERLINE)
+    nombreArchivo=stdscr.getstr(2,35)
+    arch="Curses/ {}".format(str(nombreArchivo))
+    stdscr.addstr(2,3,arch)
+    time.sleep(2)'''
 
-        leer = csv.reader(archivo, delimiter=',')
-        lineas = 0
-        escribir_otro=""
+     
+    try:
+        with open('Curses/Users.csv') as archivo:
+
+            leer = csv.reader(archivo, delimiter=',')
+            lineas = 0
+            escribir_otro=""
                 #lcd=Lista_Circular_doble.Circular_Doubly_Linked_List()
     
-        for fila in leer:
-            if lineas == 0:
+            for fila in leer:
+                if lineas == 0:
          
-               lineas += 1
+                    lineas += 1
 
-            else:
+                else:
 
-            	lcd.add(Lista_Circular_doble.NodeLCD(fila[0]))
-            	#lcd.add(nod(fila[0]))
-            	lineas+= 1
+            	    lcd.add(Lista_Circular_doble.NodeLCD(fila[0]))
+            	    #lcd.add(nod(fila[0]))
+            	    lineas+= 1
     
-	    
+    except:
+        print("no entro en leer")
+        pass
 	    #stdscr.refresh()           
         #stdscr.addstr(15,15,"--->se ingresaron usuarios a la aplicacion...")   
     

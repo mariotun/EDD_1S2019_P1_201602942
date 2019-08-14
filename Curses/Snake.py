@@ -12,7 +12,7 @@ from lista_doble import Doubly_Linked_List,NodeLD
 from Pila import Stack,NodeStack
 from Cola import NodeQueue,Queue
 from curses import KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN
-
+import Lista_Circular_doble
 ld=Doubly_Linked_List()
 fd=Food.Food_Snake()
 pil=Stack()
@@ -40,21 +40,24 @@ def Boody(stdscr):
 		seguir=0
 		if Options.lcd.get_user() is "n":
 			stdscr=curses.initscr()
-			curses.curs_set(1)
+			stdscr.border(0)
+			curses.curs_set(0)
 			curses.echo()
 			stdscr.keypad(True)
 			#print("no hay usuario seleccionado")
 			stdscr.addstr(2,3,"NO se ha selecionado un Usuario!!!!")
 			stdscr.addstr(5,3,"Ingrese un Nombre:")
+			
 			stdscr.addstr(5,22," "*15,curses.A_UNDERLINE)
 			usuario_nuevo=stdscr.getstr(5,22)
 			curses.noecho()
-			curses.curs_set(0)
-			#stdscr.keypad(False)
+			#curses.curs_set(0)
+			#stdscr.keypad(False)#para probar
 			
 			if usuario_nuevo.isalpha() is True:
 				stdscr.addstr(7,3,"Nombre Correcto :)")
 				stdscr.addstr(9,3,usuario_nuevo)
+				Options.lcd.add(Lista_Circular_doble.NodeLCD(str(usuario_nuevo)))
 			#time.sleep(1)
 				seguir=1
 				stdscr.getch()
@@ -65,7 +68,7 @@ def Boody(stdscr):
 				stdscr.clear()
 			#stdscr.addstr(6,6,"Ingrese su Nombre:")
 
-
+			time.sleep(3)
 
 
 		if seguir==1 or Options.lcd.get_user() is not "n":
@@ -73,6 +76,7 @@ def Boody(stdscr):
 			ld.remove_all()
 			pil.pop_all()
 			#col.dequeue_all()
+			stdscr.keypad(True)
 			stdscr=curses.initscr()
 			curses.curs_set(0)
 			stdscr.border(0)

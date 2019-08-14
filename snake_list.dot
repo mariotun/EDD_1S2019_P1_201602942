@@ -3,15 +3,10 @@ digraph Lista_Snake{
  labelloc=t; 
 node[margin=0.3 fontcolor=black shape=box];
 {rank=same;
- <lista_doble.NodeLD object at 0x7f71b76cba20>[label="(49,19)"];
-<lista_doble.NodeLD object at 0x7f71b76bccc0>[label="(50,19)"];
-<lista_doble.NodeLD object at 0x7f71b76cb780>[label="(51,19)"];
-<lista_doble.NodeLD object at 0x7f71b76bcd30>[label="(52,19)"];
-<lista_doble.NodeLD object at 0x7f71b76cb940>[label="(53,19)"];
-<lista_doble.NodeLD object at 0x7f71b76bcc88>[label="(54,19)"];
-<lista_doble.NodeLD object at 0x7f71b76bcc18>[label="(55,19)"];
-<lista_doble.NodeLD object at 0x7f71b76bce80>[label="(56,19)"];
-<lista_doble.NodeLD object at 0x7f71b76bccf8>[label="(56,18)"];
-<lista_doble.NodeLD object at 0x7f71b76cba20>-><lista_doble.NodeLD object at 0x7f71b76bccc0>-><lista_doble.NodeLD object at 0x7f71b76cb780>-><lista_doble.NodeLD object at 0x7f71b76bcd30>-><lista_doble.NodeLD object at 0x7f71b76cb940>-><lista_doble.NodeLD object at 0x7f71b76bcc88>-><lista_doble.NodeLD object at 0x7f71b76bcc18>-><lista_doble.NodeLD object at 0x7f71b76bce80>-><lista_doble.NodeLD object at 0x7f71b76bccf8>
+ <lista_doble.NodeLD object at 0x7fb0d9ca6dd8>[label="(20,7)"];
+<lista_doble.NodeLD object at 0x7fb0d9ca6d30>[label="(20,6)"];
+<lista_doble.NodeLD object at 0x7fb0d9ca6da0>[label="(20,5)"];
+<lista_doble.NodeLD object at 0x7fb0d9ca6ef0>[label="(20,4)"];
+<lista_doble.NodeLD object at 0x7fb0d9ca6dd8>-><lista_doble.NodeLD object at 0x7fb0d9ca6d30>-><lista_doble.NodeLD object at 0x7fb0d9ca6da0>-><lista_doble.NodeLD object at 0x7fb0d9ca6ef0>
 [dir=both style=tapered arrowsize=0.5 penwidth=1 color=black];
 } }

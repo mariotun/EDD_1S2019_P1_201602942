@@ -5,8 +5,9 @@ node[margin=0.3 fontcolor=black shape=record];
 
 cola1[
 label="{
-(Erick,4)| 
-(Carlos,5)| 
+(n,2)| 
+(Katherin,3)| 
+(Emilio,0)| 
 }" 
 ]; 
 }
